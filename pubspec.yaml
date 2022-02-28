@@ -1,0 +1,49 @@
+name: social_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.13.1
+  firebase_auth: ^3.3.9
+  bloc: ^8.0.2
+  flutter_bloc: ^8.0.1
+  flutter_styled_toast: ^2.0.0
+  cloud_firestore: ^3.1.10
+  shared_preferences: ^2.0.13
+  image_picker: ^0.8.4+4
+  firebase_storage: ^10.2.9
+  conditional_builder_null_safety: ^0.0.6
+  intl: ^0.17.0
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  firebase_messaging: ^11.2.8
+  http: ^0.13.4
+  flutter_local_notifications: ^9.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  image_path: "assets/images/app_icon.png"
+  android: true
+  ios: true
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Signika
+      fonts:
+        - asset: assets/fonts/Signika-Regular.ttf
