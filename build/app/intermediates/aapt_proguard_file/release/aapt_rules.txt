@@ -1,5 +1,4 @@
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
--keep class androidx.multidex.MultiDexApplication { <init>(); }
 -keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver { <init>(); }
 -keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver { <init>(); }
 -keep class com.example.social_app.MainActivity { <init>(); }
